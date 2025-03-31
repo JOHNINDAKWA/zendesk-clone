@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: rgb(6, 57, 64);
+    width: 60px;
+    height: 98vh;
+    color: rgb(255, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    overflow-y: hidden;
+  }
+  
+  .top-icons,
+  .bottom-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .top-icons svg,
+  .bottom-icon svg {
+    font-size: 22px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .top-icons svg:hover,
+  .bottom-icon svg:hover {
+    color: #00c3a5;
+  }
+  

@@ -1,0 +1,184 @@
+.macrobar-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 60px;
+  width: 480px;
+  height: 40px;
+  z-index: 1000;
+}
+
+.macrobar {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-size: 14px;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
+  border-right: 1px solid #a4a4a4;
+}
+
+.macrobar-label {
+  cursor: pointer;
+  user-select: none;
+  color: #333;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.macrobar-search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 4px 8px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.macrobar-dropdown {
+  position: absolute;
+  bottom: 44px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 6px 0;
+}
+
+.macrobar-list {
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.macrobar-item {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.macrobar-item:hover {
+  background-color: #f0f0f0;
+}
+
+.macrobar-no-result {
+  padding: 10px;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+}
+.pull-btn.loading {
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #666;
+}
+
+.input-with-button {
+  display: flex;
+  align-items: center;
+}
+
+.pull-btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap; 
+}
+
+.pull-btn:hover {
+  background-color: #0056b3;
+}
+
+.pull-btn:disabled {
+  background-color: #ccc;
+  color: #666;
+}
+/* === Submit Button & Drop-Up Styling === */
+
+  .submit-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0 16px 8px 0;
+    background-color: transparent;
+    z-index: 1001;
+  }
+  
+
+/* Main Submit Button */
+.submit-button {
+  background-color: #39434b;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.submit-button:hover {
+  background-color: #2c343d;
+}
+
+/* Drop-up Button */
+.status-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Toggle arrow beside submit */
+.status-toggle {
+  background-color: #39434b;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.status-toggle:hover {
+  background-color: #2c343d;
+}
+
+/* Drop-up menu */
+.status-options {
+  position: absolute;
+  bottom: 40px; /* Push it upwards */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.status-option {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.status-option:hover {
+  background-color: #f0f0f0;
+}

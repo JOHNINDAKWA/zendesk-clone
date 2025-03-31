@@ -1,0 +1,10 @@
+export const slashCommands = {
+    '/addlock': "The TA called via *** to request help with locking a client's add-ons after they were updated. I confirmed that the add-ons were properly adjusted in PAYGOPS and assisted with locking them.",
+    '/addons': "TA called via *** to request a phone number change for a client. I informed him that phone number changes must be requested directly by the client for security reasons. I advised him to have the client call personally to make the request",
+    '/register': "The client called via *** inquiring about how he can register with Tupande to access our products. I assisted him/her by guiding the entire process and provided the location of the nearest Tupande Duka using the tracker for further assistance with registration.",
+    '/ocr': "TA called via *** to report an ID verification issue where the National ID and photo did not match. I updated the status to ‘Interested in OAF,’ then to ‘Check Credit Score,’ and finally to ‘Ready to Start Qualification.’ The issue was successfully resolved.",
+    '/lead': "TA called via *** to inquire about the client's zero credit limit. After checking, I confirmed that the client has an outstanding loan balance on Roster. I provided the loan balance details, including the account number and the correct paybill number for repayment on core accounts.",
+    '/delivery': "Client called via *** to inquire about the delivery of their enrolled products. Confirmed that they will receive an SMS notification with collection details.Validated the phone number on PaygOps to ensure they receive the communication.Advised the client to check their messages for updates.",
+    '/phone': "TA called via *** to request a phone number change for a client. I informed him that phone number changes must be requested directly by the client for security reasons. I advised him to have the client call personally to make the request",
+  };
+  

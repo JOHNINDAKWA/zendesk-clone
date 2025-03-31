@@ -1,0 +1,16 @@
+.ticket-page {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}

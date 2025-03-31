@@ -1,0 +1,91 @@
+.ticket-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background-color: #fff;
+    width: 280px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: rgb(54, 131, 225);
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .checkbox-group label {
+    font-weight: normal;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .input-with-button {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .input-with-button input {
+    flex: 1;
+  }
+  
+  .pull-btn {
+    background-color: rgb(6, 57, 64);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pull-btn:hover {
+    background-color: rgb(8, 70, 77);
+  }
+  
+
+  /* Scrollbar styling */
+.ticket-form::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .ticket-form::-webkit-scrollbar-thumb {
+    background-color: #e1e1e1b1; /* Light grey */
+    border-radius: 4px;
+  }
+  
+  .ticket-form::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Slightly lighter */
+  }

@@ -1,0 +1,74 @@
+.topbar {
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;  
+  }
+  .bg{
+    
+    background-color: #e8eaec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px; 
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+  }
+  
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f8f9f9;
+    height: 100%;
+  }
+  
+  .ticket-title {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .close-icon {
+    font-size: 14px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+
+  
+  .add-btn {
+    background: white;
+    border: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px 8px;
+    height: 100%;
+  }
+  
+  .add-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .topbar-icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
